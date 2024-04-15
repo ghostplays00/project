@@ -1,0 +1,387 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial';
+    /* The image used */
+    background-image: url('pictures/blue-pattern.jpg');
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-size: cover;
+}
+
+  .container {
+    width: 382px;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 20px;
+    padding: 80px;
+    background: #23463f;
+    border-radius: 15px;
+  }
+
+  .loginform {
+    width: 382px;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 20px;
+    padding: 80px;
+    background: #0e81b6;
+    border-radius: 15px;
+    border: 1px solid black;
+  }
+  .classreg a {
+    color: blue;
+  }
+  .profileimg img {
+    width: 350px; /* Set desired width */
+    height: 350px; /* Set desired height */
+    object-fit: cover; /* Preserve aspect ratio and cover the entire space */
+}
+
+.update-content {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  text-align: left;
+  background-color: white;
+  border-radius: 15px;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-top: 1%;
+}
+.update-content h2 {
+  text-align: center;
+}
+.contenttxt {
+  border-radius: 5px;
+}
+
+.containerbooklist {
+  
+  background-color: #e7e7e7;
+  display: block;
+  margin-left: 1%;
+  margin-right: 1%;
+  height: 100%;
+  width: 98%;
+  margin-top: auto;
+  margin-bottom: auto;
+  max-height: 80%;
+  min-height: 70%;
+  border-radius: 20px;
+  text-align: center
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2; /* Sit on top */
+}
+
+.modal-content {
+  position: relative;
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 5%;
+  margin-left: 30%;
+  margin-right: 30%;
+  text-align: center;
+}
+
+.close {
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 25px;
+  color: black;
+}
+
+
+
+
+/* Add a black background color to the top navigation */
+  .topnav {
+    background-color: #333;
+    overflow: hidden;
+    height: 70px;
+  }
+  .topnav h1 {
+    
+    position: absolute; 
+    left: 70px
+  }
+  .topnav img {
+    
+    top: 5px;
+    position: absolute; 
+    left: 5px;
+    height: 60px;
+    width: 60px;
+  }
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    width: 15%;
+    height: 20px;
+    position: relative;
+    top: 11px;
+    border-radius: 10px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  } 
+  .topnav h1 {
+    
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .catnav {
+    background-color: #8a8c8d;
+    overflow: hidden;
+    height: 75px;
+    border-radius: 20px;
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+  /* Style the links inside the navigation bar */
+  .catnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    width: 10%;
+    height: 20px;
+    position: relative;
+    left: 10px;
+    top: 12px;
+    border-radius: 10px;
+  }
+  
+  /* Change the color of links on hover */
+  .catnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .catnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  } 
+  .category {
+    height: 100px;
+  }
+  .category h1{
+    font-family: Cursive;
+    color: #000000;
+    font-size: 30px;
+    text-shadow: 2px 2px rgb(99, 190, 226);
+
+  }
+  .reader {
+    background-color: transparent;
+    height: 650px;
+    width: 100%;
+  }
+  .reader h1 {
+    
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    font-size: 30px;
+    height: 20px;
+  }
+  .reader embed {
+    background-color: transparent;
+    margin-left: 1%; 
+    margin-right: 1%;
+    margin-top: 1%; 
+    margin-bottom: 1%;
+    width: 98%;
+    border-radius: 15px;
+  }
+  .profile {
+    border-radius: 15px;
+    margin-top: 5px;
+    background-color: rgb(204, 204, 204);
+    text-align: center;
+  }
+  .profileparent{
+    
+    display: flex;
+  }
+
+
+  .profile:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .profileimg {
+    position: relative;
+    width: 50%;
+  }
+  .profilechild{
+    display: inline-block;
+    flex: 1;
+
+
+  }
+  .profile img {
+    position: relative;
+    left: 30%;
+    border-radius: 15px;
+    height: 100%;
+    width: 100%;
+  }
+  .profileinfo {
+    width: 100%;
+  }
+  .profileinfo h2 {
+    text-align: left;
+    font-size: 50px;
+    color: white;
+  }
+  .profileinfo p {
+    text-align: left;
+    color: white;
+  }
+  
+  .form-group label {
+    color: black;
+  }
+  .classreset a {
+    all: initial;
+}
+
+textarea {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.file-content {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  text-align: left;
+  background-color: white;
+  border-radius: 15px;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+.container-list {
+  background-color: #e7e7e7;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  width: 70%;
+  margin-top: auto;
+  margin-bottom: auto;
+  max-height: 80%;
+  min-height: 70%;
+  border-radius: 20px;
+  text-align: center;
+}
+.card-header{
+  margin-top: 50px;
+  height: 50px;
+  text-align: center;
+}
+.card-header h4 {
+  text-align: center;
+  margin: 0;
+  top: 50%;
+  -ms-transform: translateY(-20px);
+  transform: translateY(20px);
+  ;
+}
+.mb-3 input {
+  border: 1px solid black;
+  width: 70%;
+  border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+
+}
+.mb-3 button {
+  border: 1px solid black;
+  width: 20%;
+  border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+th,td {
+  border: 1px solid black;
+}
+
+table.a {
+  table-layout: auto;
+  width: 180px;  
+}
+
+table.b {
+  table-layout: fixed;
+  width: 180px;  
+}
+
+.table-bordered {
+  table-layout: auto;
+  width: 98%;  
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-top: 1%;
+}
+
+.table-bordered th {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+
+}
+
+table.d {
+  table-layout: fixed;
+  width: 100%;  
+}
+.btn-delete {
+  color: red;
+  background-color: transparent;
+  border-radius: 8px;
+  
+}
